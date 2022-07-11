@@ -9,7 +9,9 @@
         "format:check": "prettier --check .",
         "format:write": "prettier --write .",
         "lint:check": "eslint .",
-        "lint:fix": "eslint --fix ."
+        "lint:fix": "eslint --fix .",
+        "client":"npm start --prefix client",
+        "dev":"concurrently \"npm run server\" \"npm run client\""
     },
     "repository": {
         "type": "git",
